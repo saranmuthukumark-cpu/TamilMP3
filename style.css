@@ -171,4 +171,8 @@ footer {
   .section-title {
     font-size: 1.5rem;
   }
+  .btn-download {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+  }
 }
