@@ -1,0 +1,174 @@
+body {
+  background: #0f0f0f;
+  color: #fff;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.navbar {
+  background: #000000;
+  font-weight: bold;
+  height: 80px;
+}
+nav a:hover {
+  color: #1db954 !important;
+}
+
+.btn-download {
+  background: #1db954;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn-download:hover {
+  background: #000000;
+}
+
+.hero {
+  padding: 200px 20px;
+  text-align: center;
+  background: linear-gradient(#000000, #242424);
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  color: #1db954;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  color: #b3b3b3;
+  font-size: 1.2rem;
+}
+
+.categories {
+  padding: 40px 20px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.category-card {
+  background: #242424;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: #1ed760 0 4px 5px;
+}
+
+.category-icon {
+  font-size: 2rem;
+  color: #1db954;
+  margin-bottom: 10px;
+}
+
+.category-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.category-card p {
+  color: #b3b3b3;
+  font-size: 0.9rem;
+}
+.features-section {
+  background: #242424;
+  color: white;
+  padding: 50px 0;
+}
+
+.feature-item {
+  text-align: center;
+  padding: 30px;
+}
+
+.feature-icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 2rem;
+  color: #1db954;
+}
+
+.feature-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.feature-text {
+  color: #b3b3b3;
+}
+
+.setup-section {
+  background: #1a1a1a;
+  padding: 40px 20px;
+  
+}
+
+.setup-card {
+  background: #242424;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.setup-step {
+  margin-bottom: 20px;
+  padding-left: 15px;
+  border-left: 3px solid #1db954;
+  ;
+}
+
+.setup-step h4 {
+  color: #ffffff;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.code-block {
+  background: #0f0f0f;
+  padding: 12px;
+  border-radius: 5px;
+  margin: 8px 0;
+}
+
+.code-block code {
+  color: #1ed760;
+  font-size: 0.9rem;
+}
+
+footer {
+  background: #1a1a1a;
+  padding: 20px;
+  text-align: center;
+  color: #b3b3b3;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none !important;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+}
